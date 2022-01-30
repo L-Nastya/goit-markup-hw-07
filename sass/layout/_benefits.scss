@@ -3,11 +3,11 @@
   flex-wrap: wrap;
   margin-left: -28px;
 }
-.benefits-item {
+.benefits-list__item {
   width: calc(100% / 4 - 28px);
   margin-left: 28px;
 }
-.benefits-link {
+.benefits-list__link {
   width: 270px;
   height: 120px;
   display: flex;
@@ -17,14 +17,13 @@
   border-radius: 4px;
   margin-bottom: 30px;
 }
-
-.benefits-tittles {
+.benefits-list__titles {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--tittle-text-color);
   margin-bottom: 10px;
 }
-.benefits-text {
+.benefits-list__text {
   line-height: 1.71;
   color: var(--primary-text-color);
 }
